@@ -1,0 +1,54 @@
+body {
+display: flex;
+flex-wrap:wrap;
+flex-direction: column;
+	
+}
+
+body * {
+	font-family: Montserrat;
+	font-style: normal;
+}
+
+header {
+	display: flex;	
+	justify-content: space-between;
+	
+}
+.rk-logo {
+	margin: 16px 0 23px 23px;
+}
+.burger {
+	margin: 29px 32px 27px 0;
+}
+
+hr {
+	background-color: #F4F4F4;
+	height:10px;
+	width:100%;
+	border:none;
+}
+
+.text_container {
+	color: #00527B;
+}
+.text_container h1 {
+	font-weight: 800;
+	font-size: 26px;
+	line-height: 35px;
+}
+
+.text_container p {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 24px;	
+}
+
+.red{
+	color:#FF1A31;
+}
+
+.orange {
+	color: #FF931A;
+	text-decoration-style: wavy;
+}
