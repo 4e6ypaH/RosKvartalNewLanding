@@ -29,16 +29,16 @@ hr {
 	border:none;
 }
 
-.text_container {
+.ADS {
 	color: #00527B;
 }
-.text_container h1 {
+.ADS h1 {
 	font-weight: 800;
 	font-size: 26px;
 	line-height: 35px;
 }
 
-.text_container p {
+.ADS p {
 	font-weight: 500;
 	font-size: 17px;
 	line-height: 24px;	
@@ -50,5 +50,32 @@ hr {
 
 .orange {
 	color: #FF931A;
-	text-decoration-style: wavy;
+}
+
+.ready_solution p {
+
+font-weight: normal;
+font-size: 15px;
+line-height: 21px;
+
+color: #333333;
+
+
+}
+
+.button	{
+	cursor: pointer;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+	background: linear-gradient(83.91deg, #FF1A31 -1.59%, #FF931A 130.38%);
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	padding: 21px;
 }
