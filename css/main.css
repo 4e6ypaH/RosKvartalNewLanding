@@ -2,12 +2,16 @@ body {
 display: flex;
 flex-wrap:wrap;
 flex-direction: column;
-	
+width: 320px;
 }
 
 body * {
 	font-family: Montserrat;
 	font-style: normal;
+}
+
+section {
+	margin: 0 23px;
 }
 
 header {
@@ -16,7 +20,7 @@ header {
 	
 }
 .rk-logo {
-	margin: 16px 0 23px 23px;
+	margin: 16px 0 0 23px;
 }
 .burger {
 	margin: 29px 32px 27px 0;
@@ -24,13 +28,14 @@ header {
 
 hr {
 	background-color: #F4F4F4;
-	height:10px;
+	height:3px;
 	width:100%;
 	border:none;
 }
 
 .ADS {
 	color: #00527B;
+	margin: 0 23px;
 }
 .ADS h1 {
 	font-weight: 800;
@@ -64,6 +69,7 @@ color: #333333;
 }
 
 .button	{
+	height: 52px;
 	cursor: pointer;
 	font-weight: 800;
 	font-size: 14px;
@@ -77,5 +83,62 @@ color: #333333;
 	background: linear-gradient(83.91deg, #FF1A31 -1.59%, #FF931A 130.38%);
 	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
 	border-radius: 6px;
-	padding: 21px;
+	border: none;
+	padding: 0 20px;
+	margin: 33px 0 27px 0;
+}
+
+.brown {
+	background-color: #FFDA7A;
+}
+
+.quote {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 26px;
+	margin-bottom: 170px;
+}
+
+.quote strong {
+	text-transform:uppercase;
+};
+
+.price_calculation {
+	
+}
+
+.large_text {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	text-align: center;
+	color: #00527B;
+}
+
+.small_text {
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	color: #00527B;
+}
+
+.calculate_container {
+
+}
+
+.houses_number {
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 16px;
+	color: #00527B;
+}
+
+.all_abilities {
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 18px;
+	text-align: center;
+	color: #00527B;
+	margin: 0 38px 23px 14px;
 }
