@@ -11,7 +11,10 @@ body * {
 }
 
 section {
-	margin: 0 23px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 0 23px 0 23px;
 }
 
 header {
@@ -26,7 +29,7 @@ header {
 	margin: 29px 32px 27px 0;
 }
 
-hr {
+.header_line {
 	background-color: #F4F4F4;
 	height:3px;
 	width:100%;
@@ -74,8 +77,6 @@ color: #333333;
 	font-weight: 800;
 	font-size: 14px;
 	line-height: 20px;
-	display: flex;
-	align-items: center;
 	text-align: center;
 	text-transform: uppercase;
 	color: #FFFFFF;
@@ -84,7 +85,7 @@ color: #333333;
 	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
 	border-radius: 6px;
 	border: none;
-	padding: 0 20px;
+	/* padding: 0 20px; */
 	margin: 33px 0 27px 0;
 }
 
@@ -105,14 +106,6 @@ color: #333333;
 
 .price_calculation {
 	
-}
-
-.large_text {
-	font-weight: 600;
-	font-size: 22px;
-	line-height: 27px;
-	text-align: center;
-	color: #00527B;
 }
 
 .small_text {
@@ -140,5 +133,85 @@ color: #333333;
 	line-height: 18px;
 	text-align: center;
 	color: #00527B;
-	margin: 0 38px 23px 14px;
+	margin: 0 38px 23px 0;
+	list-style-type: circle;
+}
+
+
+
+.abilities_list li {
+	color:#D0DEE8;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.abilities_list li span {
+
+	color: #FF931A;
+}
+
+.list_line {
+	background-color: #F4F4F4;
+	height:1px;
+	width:100%;
+	border:none;
+}
+
+.control_room {
+	text-align:center;
+}
+
+.all_you_need {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	color: #00527B;
+}
+
+.simple_integration {
+	color: #00527B;
+}
+
+.simple_integration p {
+	text-align: center;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	color: #00527B;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	color:#00527B;
+	border: 2px solid #D0DEE8;
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding:15px;
+}
+
+.container_button{
+	height: 52px;
+	cursor: pointer;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: linear-gradient(83.91deg, #FF1A31 -1.59%, #FF931A 130.38%);
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	border: none;
+	padding: 0 30px;
+	/* margin: 33px 0 27px 0; */
+	/* margin-bottom:18px; */
 }
