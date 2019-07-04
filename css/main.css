@@ -4,6 +4,7 @@ body {
 	flex-direction: column;
 	width: 320px;
 	margin:0;
+	background-image: url('images/frontend1.png');
 }
 
 body * {
@@ -98,19 +99,19 @@ header {
 
 .quote strong {
 	text-transform:uppercase;
-};
-
-.Boris_image {
-	margin-top: -450px;
 }
 
-
-.blue_sky_image {
-	z-index: 1;
+.Boris {
+	width:322px;
+	height: 380px;
 }
 
-.Boris_image {
-	z-index: 100;
+.Boris_text {
+	margin-top: 110px;
+}
+
+.Boris_text p {
+	line-height: 15px;
 }
 
 .price_calculation {
