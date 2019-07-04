@@ -1,12 +1,13 @@
 body {
-display: flex;
-flex-wrap:wrap;
-flex-direction: column;
-width: 320px;
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	width: 320px;
+	margin:0;
 }
 
 body * {
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 }
 
@@ -61,13 +62,10 @@ header {
 }
 
 .ready_solution p {
-
-font-weight: normal;
-font-size: 15px;
-line-height: 21px;
-
-color: #333333;
-
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 21px;
+	color: #333333;
 
 }
 
@@ -80,7 +78,6 @@ color: #333333;
 	text-align: center;
 	text-transform: uppercase;
 	color: #FFFFFF;
-
 	background: linear-gradient(83.91deg, #FF1A31 -1.59%, #FF931A 130.38%);
 	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
 	border-radius: 6px;
@@ -103,13 +100,10 @@ color: #333333;
 	text-transform:uppercase;
 };
 
-.Boris {
-	
+.Boris_image {
+	margin-top: -450px;
 }
 
-.blue_sky_image, .Boris_image {
-
-}
 
 .blue_sky_image {
 	z-index: 1;
@@ -151,8 +145,6 @@ color: #333333;
 	margin: 0 38px 23px 0;
 	list-style-type: circle;
 }
-
-
 
 .abilities_list li {
 	color:#D0DEE8;
@@ -213,6 +205,11 @@ h3 {
 	padding:15px;
 }
 
+.container_header {
+	margin-bottom:-12px;
+	z-index:100;
+}
+
 .container_button{
 	height: 52px;
 	cursor: pointer;
@@ -229,6 +226,11 @@ h3 {
 	padding: 0 30px;
 	/* margin: 33px 0 27px 0; */
 	/* margin-bottom:18px; */
+}
+
+.integration button {
+	margin-top:35px;
+
 }
 
 h4 {
@@ -250,6 +252,19 @@ h4 {
 	padding:15px;
 }
 
+.we_garantee .service_container h4{
+	margin:0;
+}
+
+.security_garantees .service_container{
+	padding-bottom: 0;
+}
+
+.cat {
+	display: flex;
+	justify-content: flex-end;
+}
+
 figure {
 	margin:0;
 }
@@ -267,11 +282,18 @@ figure p, figcaption {
 	text-transform: uppercase;
 }
 
+.lines_image {
+	margin-left:13px;
+}
+
 .our_clients {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 25px;
 	color: #00527B;
+	background-color: #EAF1F6;
+	margin:0;
+	padding:0 23px;
 }
 
 .our_clients h3 {
