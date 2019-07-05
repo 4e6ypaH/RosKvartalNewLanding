@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>RosKvartalLandingPage</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-
+<div class="wrapper">
 <header class="header">
 
 <div class="rk-logo">
@@ -28,8 +29,7 @@
 
 <section class="ADS">
 	<h1><span class="red">АДС&nbsp;на&nbsp;100%</span>&nbsp;— современная диспетчерская для управляющей организации</h1>
-	<p>По всем требованиям <span class="orange">законов</span> и <span class="orange">ГОСТов</span></p>
-	::after
+	<p>По всем требованиям <br><span class="orange">законов</span> и <span class="orange">ГОСТов</span></p>
 </section>
 
 <br>
@@ -56,12 +56,7 @@
 				<p>Руководитель<br> интернет-службы<br> РосКвартал</p></div>
 	</div>
 	
-	</section>	
-
-
-		
-
-	
+	</section>		
 
 <section class="price_calculation">
 	<h3>Самое приятное в сервисе «АДС на 100%» – это его цена</h3>
@@ -116,9 +111,8 @@
 <p>В сервисе «АДС на 100%» настроен автоматический обмен данными с ГИС ЖКХ, вашим сайтом, 1С и другими программами. Информация не потеряется, а вам не придётся размещать её несколько раз на разных ресурсах.</p>
 </section>
 
-<section class="integration">
-	<h3 class="container_header">Интеграция</h3>
-	<div class="container">
+<fieldset class="integration container">
+	<legend><h3 class="container_header">Интеграция</h3></legend>
 		<figure>
 			<p><img src="images/house.png" alt="house image"></p>
 			<figcaption>Загрузка информации о домах и помещениях</figcaption>
@@ -138,15 +132,11 @@
 			<p><img src="images/download.png" alt="download image"></p>
 			<figcaption>Выгрузка информации об обращениях жителей</figcaption>
 		</figure>
+		<div class="container_button_block"><button class="container_button">Попробовать бесплатно</button></div>
+</fieldset>
 
-<button class="container_button">Попробовать бесплатно</button>
-	</div>
-</section>
-
-<section class="site_for_organization">
-	<h3 class="container_header">Сайт для <br>организации</h3>
-	
-<div class="container">
+<fieldset class="site_for_organization container">
+	<legend><h3 class="container_header">Сайт для <br>организации</h3></legend>	
 	<figure>
 		<p><img src="images/site.png" alt="site image"></p>
 		<figcaption>
@@ -154,12 +144,10 @@
 		<p>Встраиваемый на ваш сайт виджет, с помощью которого жители дома смогут отправлять вам заявки, обращения и показания приборов учёта</p>
 		</figcaption>
 	</figure>
-</div>
-</section>
+</fieldset>
 
-<section class="1C_and_other_programs">
-	<h3 class="container_header">1C и другие <br>программы</h3>
-	<div class="container">
+<fieldset class="1C_and_other_programs container">
+	<legend><h3 class="container_header">1C и другие <br>программы</h3></legend>
 		<figure>
 			<p><img src="images/1C.png" alt="1C image"></p>
 			<figcaption>Выгрузка в 1С данных об остатках на складах и списании материалов</figcaption>
@@ -174,50 +162,39 @@
 			<p><img src="images/1C_cycle.png" alt="1C_cycle image"></p>
 			<figcaption>Настраиваемый обмен данными через дополнительные обработки для 1С</figcaption>
 		</figure>
-	</div>
-</section>
+</fieldset>
 
-<section class="we_garantee">
-	<h3 class="container_header">Мы гарантируем, <br>что сервис</h3>
-	<div class="service_container">
+<fieldset class="we_garantee service_container">
+	<legend><h3 class="container_header">Мы гарантируем, <br>что сервис</h3></legend>
 		<h4>Соответствует закону</h4>
 		<p>Сервис соответствует требованиям законов и ГОСТов Мы следим за изменениями в законодательстве и при необходимости обновляем функционал</p>
 		<h4>Защищает персональные данные</h4>
 		<p>Защищаем персональные данные согласно № 152-ФЗ, не сообщаем их никому вне РосКвартала</p>
 		<h4>Надёжно хранит данные</h4>
 		<p>“Облачные” данные не потеряются<br>Каждый день делается двойной бэкап всех данных по вашей организации</p>
-	</div>
-</section>
+</fieldset>	
 
-<section class="security_garantees">
-	<h3 class="container_header">Гарантии вашей безопасности, закреплённые в <br>договоре
-</h3>
-	<div class="service_container">
+<fieldset class="security_garantees service_container">
+	<legend><h3 class="container_header">Гарантии вашей безопасности, закреплённые в <br>договоре</h3></legend>
 		<p>Мы гарантируем бесперебойную и качественную работу сервиса. Его уже протестировали <strong>79 управляющих организаций,</strong> они довольны приятным интерфейсом и функциональностью – здесь всё необходимое для работы. </p>
 		<p>Мы уверены, что вы быстро во всём разберётесь. А если возникнут вопросы, техподдержка придёт на помощь.</p>
 		<div class="cat"><span class="orange">Мяу</span>
 		<img src="images/cat.png" alt="cat image" width="107", height="73">
 		</div>
-	</div>	
-</section>
+</fieldset>
 
-<section class="system_deploy">
-	<h3 class="container_header">Развертывание <br>системы</h3>
-	<div class="service_container">
+<fieldset class="system_deploy service_container">
+	<legend><h3 class="container_header">Развертывание <br>системы</h3></legend>
 		<p>Использование сервиса предоставляется по схеме «ПО как услуга». Развёртывание ПО происходит на серверах, арендуемых РосКварталом, обеспечивается их <span class="orange">круглосуточная бесперебойная работа</span>. Обновления системы выходят минимум 2 раза в месяц, они полностью совместимы с предыдущими версиями.</p>
 		<p>Если у вас нет стабильного интернета или вы хотите хранить данные у себя, мы установим систему на серверах вашей организации.</p>
-		<img src="images/servers.png" alt="servers image">
-	</div>
-</section>
+		<div class="server_image"><img src="images/servers.png" alt="servers image"></div>
+</fieldset>
 
-<section class="support">
-	<h3 class="container_header">Техническая <br>поддержка</h3>
-
-	<div class="service_container">
-		<p>Наша техподдержка всегда на связи.
-		На поступившие запросы <span class="orange">мы отвечаем в рабочее время с понедельника по пятницу с 9:00 до 18:00</span> (МСК). <br>
+<fieldset class="support service_container">
+	<legend><h3 class="container_header">Техническая <br>поддержка</h3></legend>
+		<p>Наша техподдержка всегда на связи. На поступившие запросы <span class="orange">мы отвечаем в рабочее время с понедельника по пятницу с 9:00 до 18:00</span> (МСК). <br>
 		Каждому запросу присваиваем приоритет, это позволяет нам в первую очередь отвечать на важные и срочные заявки.</p>
-		
+	
 
 		<section class="priority">
 			<figure>
@@ -252,12 +229,10 @@
 			<span>8 часов</span>			
 			<p>Запрос связан с оказанием дополнительного объёма услуг по настройке или модификации системы</p>
 		</section>
-	</div>
-</section>
+</fieldset>
 
-<section class="system_security">
-	<h3 class="container_header">Безопасность <br>системы</h3>
-	<div class="service_container">
+<fieldset class="system_security service_container">
+	<legend><h3 class="container_header">Безопасность <br>системы</h3></legend>
 		<p><strong>Мы разработали сервис на современных технологиях компании Microsoft</strong> (ASP.NET, C# 7, Entity Framework), поэтому он надёжный и быстрый.</p>
 
 		<p>Сервис «АДС на 100%» и обрабатываемые им данные размещаются «в облаке», которое предоставляется нашим партнёром, <strong>провайдером ИТ-инфраструктуры компанией Selectel</strong> (https://selectel.ru/).</p>
@@ -269,74 +244,70 @@
 		<p>По желанию управляющей организации может быть включена двухфакторная аутентификация для входа в служебные интерфейсы для сотрудников компании (диспетчеры, операторы), которые имеют доступ к информации о жителях.</p>
 		
 		<figure>
-			<p><img src="images/microsoft.png" alt="microsoft logo"></p>
+			<p class="logo"><img src="images/microsoft.png" alt="microsoft logo"></p>
 			<figcaption>Технологии и корпрорации Microsoft</figcaption>
 		</figure>
 
 		<figure>
-			<p><img src="images/selectel.png" alt="selectel logo"></p>
+			<p class="logo"><img src="images/selectel.png" alt="selectel logo"></p>
 			<figcaption>Провайдер IT-инфраструктуры Selectel</figcaption>
 		</figure>
 
 		<figure>
-			<p><img src="images/pci_dss.png" alt="pci dss logo"></p>
+			<p class="logo"><img src="images/pci_dss.png" alt="pci dss logo"></p>
 			<figcaption>Инфраструктура прошла сертификацию по стандарту безопасности PCI DSS </figcaption>
 		</figure>
 
 		<figure>
-			<p><img src="images/fsb.png" alt="fsb logo">
+			<p class="logo"><img src="images/fsb.png" alt="fsb logo">
 				<img src="images/fstek.png" alt="fstek logo">
 			</p>
 			<figcaption>Соответствие провайдера требованиям ФСТЭК/ФСБ</figcaption>
 		</figure>
 
 		<figure>
-			<p><img src="images/gostriso_ru.png" alt="Selectel certificate"></p>
+			<p class="document"><img src="images/gostriso_ru.png" alt="Selectel certificate"></p>
 			<figcaption>Сертификат Selectel</figcaption>
 		</figure>
 
-		<figure>
-			<p><img src="images/rk_license.png" alt="rk license"></p>
+		<figure >
+			<p class="document"><img src="images/rk_license.png" alt="rk license"></p>
 			<figcaption>Лицензия РосКвартала</figcaption>
 		</figure>
 
 		<figure>
-			<p><img src="images/gostriso_ru.png" alt="rk patent"></p>
+			<p class="document"><img src="images/gostriso_ru.png" alt="rk patent"></p>
 			<figcaption>Патент РосКвартала</figcaption>
 		</figure>		
-	</div>
-</section>
+</fieldset>
 
-<section class="our_team">
-	<h3 class="container_header">Наша <br>команда</h3>
-	<div class="service_container">
+<fieldset class="our_team service_container">
+	<legend><h3 class="container_header">Наша <br>команда</h3></legend>
 		<figure>
-			<p><img src="images/book.png" alt="book image"></p>
+			<p class="icon"><img src="images/book.png" alt="book image"></p>
 			<figcaption>Проведёт <strong>тренинги по использованию системы</strong> для группы в 10-15 человек. Тренинги будут полезны диспетчерам, инженерам, руководству заказчика</figcaption>
 		</figure>
 
 		<figure>
-			<p><img src="images/1C.png" alt="1C image"></p>
+			<p class="icon"><img src="images/1C.png" alt="1C image"></p>
 			<figcaption><strong>Выполнит интеграцию</strong> с информационными системами (1С, телефония, СКУД, системы управления парковочным пространством)</figcaption>
 		</figure>
 
 		<figure>
-			<p><img src="images/picture.png" alt="picture image"></p>
+			<p class="icon"><img src="images/picture.png" alt="picture image"></p>
 			<figcaption><strong>Подготовит макеты рекламных материалов</strong> для привлечения жителей домов в сервис</figcaption>
 		</figure>
 
 		<figure>
-			<p><img src="images/star.png" alt="star image"></p>
+			<p class="icon"><img src="images/star.png" alt="star image"></p>
 			<figcaption><strong>Поможет организовать</strong> промомероприятие</figcaption>
 		</figure>
 
 		<figure>
-			<p><img src="images/browser-visualization.png" alt="browser-visualization image"></p>
+			<p class="icon"><img src="images/browser-visualization.png" alt="browser-visualization image"></p>
 			<figcaption><strong>Обеспечит бесперебойную работу сервиса и круглосуточное взаимодействие с клиентами</strong> и другими пользователями сервиса</figcaption>
 		</figure>
-
-	</div>
-</section>
+</fieldset>
 
 <figure class="lines_image">
 	<img src="images/lines.png" alt="lines image" >
@@ -352,7 +323,7 @@
 	</div>
 	<p class="houses_number"><span class="orange">Укажите</span><br>кол-во домов</p>
 	<button class="button">Попробовать бесплатно</button>
-	<p class="all_abilities">Попробуйте все возможности<br> платформы РосКвартал <br><span class="orange">бесплатно в течение 30 дней</span></p>		
+	<p class="all_abilities">Попробуйте все возможности<br> платформы РосКвартал <br><span class="orange">бесплатно в течение 30 дней</span></p>
 </section>
 
 <section class="our_clients">
@@ -365,6 +336,6 @@
 <section class="google_maps">
 	google maps
 </section>
-
+</div>
 </body>
 </html>
