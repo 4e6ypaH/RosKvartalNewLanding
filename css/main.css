@@ -306,7 +306,6 @@ figure p, figcaption {
 	padding: 0 30px;
 }
 
-
 .service-container {
 	display: flex;
 	flex-direction: column;
@@ -406,6 +405,7 @@ figure p, figcaption {
 }
 
 .extra-button {
+	cursor: pointer;
 	display:flex;
 	border:none;
 	border-radius: 11px;
