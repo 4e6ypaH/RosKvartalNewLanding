@@ -1,7 +1,7 @@
 
 /*задаем массивы для скрытых блоков и кнопок*/
 let extraBlocks = document.getElementsByClassName('extra');
-let extraButtons = document.getElementsByClassName('extra_button');
+let extraButtons = document.getElementsByClassName('extra-button');
 
 /*по клику меняем видимость блока и кнопки*/
 for (let i=0; i < extraButtons.length; i++) {
