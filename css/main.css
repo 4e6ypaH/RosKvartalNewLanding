@@ -395,3 +395,31 @@ figure p, figcaption {
 .our_clients h3 {
 	text-align:left;
 }
+
+.extra {
+	display: none;
+}
+
+.extra_button {
+	display:flex;
+	border:none;
+	border-radius: 11px;
+	padding:8px 0 7px 24px ;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	color: #00527B;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	color: #00527B;
+	background-color: #D8E5ED;
+	margin: 0 auto;
+
+}
+
+.arrow {
+	margin:10px 25px 0 10px;
+}
